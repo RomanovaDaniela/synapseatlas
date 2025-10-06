@@ -1,0 +1,10 @@
+[2025-10-06T10:22:54+02:00] DIAG: whoami=root TOKEN_LEN=46 CHAT=41187580
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/root/synapseatlas/auto_updater/scheduler.py", line 27, in <module>
+    if __name__ == "__main__": main()
+                               ^^^^^^
+  File "/root/synapseatlas/auto_updater/scheduler.py", line 12, in main
+    time.sleep(delay)
+KeyboardInterrupt
