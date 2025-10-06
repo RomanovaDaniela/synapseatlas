@@ -7,6 +7,6 @@ def notify(msg: str):
         return
     try:
         url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
-        requests.post(url, data={"chat_id": CHAT, "text": f"[synapseatlas] {msg}"}, timeout=10)
+        requests.post(url, data={"chat_id": CHAT, "text": f"[RRVE synapseatlas] {msg}"}, timeout=10)
     except Exception as e:
         print("Notify exception:", e)
