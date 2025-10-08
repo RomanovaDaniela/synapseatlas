@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
+JITTER_MAX=1600
+sleep $((RANDOM % JITTER_MAX))
 set -a; [ -f "$HOME/.env" ] && . "$HOME/.env"; set +a
 {
   echo "[$(date -Is)] DIAG: whoami=$(id -un) TOKEN_LEN=${#TELEGRAM_TOKEN} CHAT=${TELEGRAM_CHAT_ID:-<empty>}"
