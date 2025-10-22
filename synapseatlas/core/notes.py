@@ -62,3 +62,4 @@ def build_index() -> str:
     out = os.path.join(META, "index.json")
     json.dump(idx, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     return out
+# tweak 2025-10-22T17:20:31.879099+00:00
