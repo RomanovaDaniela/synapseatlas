@@ -15,3 +15,4 @@ def run():
             idx[fn]["chars"] = len(txt)
     json.dump(idx, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     return True, "sample plugin updated 'chars'"
+# tweak 2025-10-22T17:14:13.237961+00:00
