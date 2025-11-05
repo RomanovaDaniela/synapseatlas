@@ -63,3 +63,5 @@ def build_index() -> str:
     json.dump(idx, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
     return out
 # tweak 2025-10-22T17:20:31.879099+00:00
+
+# autosave 2025-11-05T13:16:48.107587+00:00
