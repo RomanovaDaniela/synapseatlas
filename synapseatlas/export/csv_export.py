@@ -14,3 +14,5 @@ def export_tags_csv() -> str:
         for fn, meta in idx.items():
             w.writerow([fn, ",".join(meta.get("tags", []))])
     return p
+
+# autosave 2025-11-28T13:08:56.450503+00:00
