@@ -28,3 +28,5 @@ def add(url: str, title: Optional[str]=None, tags: Optional[List[str]]=None, not
 # tweak 2026-03-20T13:15:23.429567+00:00
 # tweak 2026-04-15T15:56:29.475364+00:00
 # tweak 2026-05-08T11:16:08.154130+00:00
+
+# autosave 2026-05-20T19:57:15.403040+00:00
