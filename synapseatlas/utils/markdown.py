@@ -7,3 +7,5 @@ def headings(md: str): return [(m.group(1), m.group(2).strip()) for m in HDR.fin
 # autosave 2026-03-04T12:37:20.610353+00:00
 
 # autosave 2026-05-22T11:11:46.929462+00:00
+
+# autosave 2026-06-24T12:13:40.715873+00:00
